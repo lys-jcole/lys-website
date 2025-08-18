@@ -1,47 +1,52 @@
+import Image from "next/image"
 import { CheckCircle } from "lucide-react"
 
-export function SolutionSection() {
+import type WithT from "./with-t-props"
+
+export function SolutionSection({ t }: WithT) {
   return (
     <section id="solution" className="py-16 bg-background">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="relative">
-            <img
+            <Image
               src="/ai-noc-dashboard.png"
-              alt="AI Network Operations Solution"
+              alt={t('solution.imageAlt') as string}
+              width={800}
+              height={600}
               className="rounded-lg shadow-lg w-full"
+              priority
             />
           </div>
 
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold font-serif text-primary mb-6">Our Solution</h2>
+            <h2 className="text-3xl md:text-4xl font-bold font-serif text-primary mb-6">{t('solution.title')}</h2>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              We have developed a software solution to early detect and solve all wireless network challenges.
+              {t('solution.desc1')}
             </p>
             <p className="text-muted-foreground mb-6">
-              We monitor key KPIs in real time for leveraging RAN, Core, and Transport IP.
+              {t('solution.desc2')}
             </p>
             <p className="text-muted-foreground mb-8">
-              We apply Machine Learning (ML) and Artificial Intelligence (AI) methodologies, to identify/detect bad root
-              causes and automate the resolution.
+              {t('solution.desc3')}
             </p>
 
             <div className="space-y-3">
               <div className="flex items-center gap-3">
                 <CheckCircle className="h-5 w-5 text-accent flex-shrink-0" />
-                <span className="text-muted-foreground">Open-only Network for network data usage</span>
+                <span className="text-muted-foreground">{t('solution.features.one')}</span>
               </div>
               <div className="flex items-center gap-3">
                 <CheckCircle className="h-5 w-5 text-accent flex-shrink-0" />
-                <span className="text-muted-foreground">Maximize the operational base for end-users</span>
+                <span className="text-muted-foreground">{t('solution.features.two')}</span>
               </div>
               <div className="flex items-center gap-3">
                 <CheckCircle className="h-5 w-5 text-accent flex-shrink-0" />
-                <span className="text-muted-foreground">Maximize the efficiency of the 5G System</span>
+                <span className="text-muted-foreground">{t('solution.features.three')}</span>
               </div>
               <div className="flex items-center gap-3">
                 <CheckCircle className="h-5 w-5 text-accent flex-shrink-0" />
-                <span className="text-muted-foreground">Prevent manual loss</span>
+                <span className="text-muted-foreground">{t('solution.features.four')}</span>
               </div>
             </div>
           </div>

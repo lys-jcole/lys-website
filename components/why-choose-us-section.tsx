@@ -1,14 +1,16 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Lightbulb, Clock, Shield, TrendingUp } from "lucide-react"
 
-export function WhyChooseUsSection() {
+import type WithT from "./with-t-props"
+
+export function WhyChooseUsSection({ t }: WithT) {
   return (
     <section id="why-choose-us" className="py-16 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold font-serif text-primary mb-4">Why Choose Lys Intelligence?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold font-serif text-primary mb-4">{t('whyChooseUs.title')}</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            We deliver cutting-edge AI solutions that transform how telecom networks operate and perform.
+            {t('whyChooseUs.intro')}
           </p>
         </div>
 
@@ -18,11 +20,11 @@ export function WhyChooseUsSection() {
               <div className="mx-auto mb-4 p-3 bg-accent/10 rounded-full w-fit">
                 <Lightbulb className="h-8 w-8 text-accent" />
               </div>
-              <CardTitle className="font-serif">Innovation</CardTitle>
+              <CardTitle className="font-serif">{t('whyChooseUs.innovation.title')}</CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground">
-                Cutting-edge AI and ML technologies applied to real-world telecom challenges.
+                {t('whyChooseUs.innovation.desc')}
               </p>
             </CardContent>
           </Card>
@@ -32,11 +34,11 @@ export function WhyChooseUsSection() {
               <div className="mx-auto mb-4 p-3 bg-accent/10 rounded-full w-fit">
                 <Clock className="h-8 w-8 text-accent" />
               </div>
-              <CardTitle className="font-serif">Real-Time</CardTitle>
+              <CardTitle className="font-serif">{t('whyChooseUs.realTime.title')}</CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground">
-                Instant detection and resolution of network issues before they impact customers.
+                {t('whyChooseUs.realTime.desc')}
               </p>
             </CardContent>
           </Card>
@@ -46,11 +48,11 @@ export function WhyChooseUsSection() {
               <div className="mx-auto mb-4 p-3 bg-accent/10 rounded-full w-fit">
                 <Shield className="h-8 w-8 text-accent" />
               </div>
-              <CardTitle className="font-serif">Reliability</CardTitle>
+              <CardTitle className="font-serif">{t('whyChooseUs.reliability.title')}</CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground">
-                Proven solutions trusted by major telecom operators across North America.
+                {t('whyChooseUs.reliability.desc')}
               </p>
             </CardContent>
           </Card>
@@ -60,11 +62,11 @@ export function WhyChooseUsSection() {
               <div className="mx-auto mb-4 p-3 bg-accent/10 rounded-full w-fit">
                 <TrendingUp className="h-8 w-8 text-accent" />
               </div>
-              <CardTitle className="font-serif">Results</CardTitle>
+              <CardTitle className="font-serif">{t('whyChooseUs.results.title')}</CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground">
-                Measurable improvements in network efficiency and customer satisfaction.
+                {t('whyChooseUs.results.desc')}
               </p>
             </CardContent>
           </Card>
