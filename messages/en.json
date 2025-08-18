@@ -1,0 +1,124 @@
+{
+  "HomePage": {
+    "title": "Lys Intelligence - AI-Powered 5G Network Optimization",
+    "description": "Professional telecom AI solutions for 5G network operations, providing real-time scalable tools for wireless network reliability and resilience.",
+    "about": {
+      "title": "About Us",
+      "intro": "Lys Intelligence was founded in 2020, based in Montreal. Our mission is to provide intelligence to automatically analyze performance data and network configuration to efficiently detect and fix network anomalies in a real-time manner.",
+      "partnering": "Our company is partnering with Operations of Canada and USA to build such innovative solutions.",
+      "expertTeam": {
+        "title": "Expert Team",
+        "description": "AI and telecom specialists"
+      },
+      "focusedMission": {
+        "title": "Focused Mission",
+        "description": "Real-time network optimization"
+      },
+      "provenResults": {
+        "title": "Proven Results",
+        "description": "Trusted by major operators"
+      },
+      "imageAlt": "Lys Intelligence Team"
+      },
+      "efficiency": {
+        "title": "It's All About Efficiency",
+        "intro": "Lys can be counted as very high and unprecedented efficiency kind of solution. We are not just about the same or less regard. The meaning of our network architectures and their output from the conventional practices to become fully intelligent and automated.",
+        "wealth": {
+          "title": "Wealth of New Opportunities",
+          "description": "5G is expected to bring a wealth of new opportunities in the telecom sector."
+        },
+        "missionCritical": {
+          "title": "Mission Critical Applications",
+          "description": "Mission critical applications will need ultra-reliable connection and guaranteed low latency."
+        },
+        "futureOps": {
+          "title": "Future Operations",
+          "description": "The Future Operations are already overwhelmed by a data tsunami. They cannot keep up with the additional 5G use cases data."
+        },
+        "imageAlt": "5G Network Visualization"
+    },
+    "header": {
+      "brand": "Lys Intelligence",
+      "efficiency": "Efficiency",
+      "problem": "The Problem",
+      "solution": "Our Solution",
+      "about": "About Us",
+      "whyChooseUs": "Why Choose Us",
+      "contact": "Contact Us"
+    },
+    "hero": {
+      "title": "5G Network Operations Efficiency Powered by Artificial Intelligence",
+      "description": "Public and private sector stakeholders around the world seek ways to ensure that wireless communications provide the level of reliability and resilience we have long taken for granted from the wireline network. Unfortunately, despite the societal and economic impact of wireless connectivity disruptions, we lack real-time scalable tools and validated methodologies to identify and understand large-scale wireless network outages.",
+      "learnMore": "Learn More About Our Solution",
+      "caseStudies": "View Case Studies"
+    },
+    "problem": {
+      "title": "The Problem?",
+      "intro": "Wireless networks experience the challenge of a real challenge in Wireless Operations",
+      "kpi": {
+        "title": "KPI",
+        "desc1": "No visibility on the KPI degradation for a real-time manner.",
+        "desc2": "No sense of urgency to solve the troubles efficiently."
+      },
+      "reactive": {
+        "title": "Reactive",
+        "desc1": "Faults detected only when they fully surface and customers are impacted.",
+        "desc2": "There is a lack of real-time tools to solve wireless network outages."
+      },
+      "manual": {
+        "title": "Manual",
+        "desc1": "Thousands of tickets with very few tools leading to low customer experience incidents.",
+        "desc2": "We are simply faced that we are ill-equipped to respond."
+      }
+    },
+    "solution": {
+      "imageAlt": "AI Network Operations Solution",
+      "title": "Our Solution",
+      "desc1": "We have developed a software solution to early detect and solve all wireless network challenges.",
+      "desc2": "We monitor key KPIs in real time for leveraging RAN, Core, and Transport IP.",
+      "desc3": "We apply Machine Learning (ML) and Artificial Intelligence (AI) methodologies, to identify/detect bad root causes and automate the resolution.",
+      "features": {
+        "one": "Open-only Network for network data usage",
+        "two": "Maximize the operational base for end-users",
+        "three": "Maximize the efficiency of the 5G System",
+        "four": "Prevent manual loss"
+      }
+    },
+    "whyChooseUs": {
+      "title": "Why Choose Lys Intelligence?",
+      "intro": "We deliver cutting-edge AI solutions that transform how telecom networks operate and perform.",
+      "innovation": {
+        "title": "Innovation",
+        "desc": "Cutting-edge AI and ML technologies applied to real-world telecom challenges."
+      },
+      "realTime": {
+        "title": "Real-Time",
+        "desc": "Instant detection and resolution of network issues before they impact customers."
+      },
+      "reliability": {
+        "title": "Reliability",
+        "desc": "Proven solutions trusted by major telecom operators across North America."
+      },
+      "results": {
+        "title": "Results",
+        "desc": "Measurable improvements in network efficiency and customer satisfaction."
+      }
+    },
+    "footer": {
+      "brand": "Lys Intelligence",
+      "intro": "Transforming 5G network operations with AI-powered solutions for real-time monitoring, predictive analytics, and automated problem resolution.",
+      "location": "Montreal, Canada",
+      "email": "info@lys-intelligence.com",
+      "phone": "+1 (514) 555-0123",
+      "contactTitle": "Get In Touch",
+      "form": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "subject": "Subject",
+        "message": "Your Message",
+        "send": "Send Message"
+      },
+      "copyright": "© {year} Lys Intelligence. All rights reserved. | Empowering the future of 5G networks."
+    }
+  }
+}
