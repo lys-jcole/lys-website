@@ -1,0 +1,124 @@
+{
+  "HomePage": {
+    "title": "Lys Intelligence - Optimisation du réseau 5G par l'IA",
+    "description": "Solutions d'IA professionnelles pour les opérations de réseaux 5G, fournissant des outils évolutifs en temps réel pour la fiabilité et la résilience des réseaux sans fil.",
+    "about": {
+      "title": "À propos de nous",
+      "intro": "Lys Intelligence a été fondée en 2020 à Montréal. Notre mission est de fournir de l'intelligence pour analyser automatiquement les données de performance et la configuration du réseau afin de détecter et corriger efficacement les anomalies en temps réel.",
+      "partnering": "Notre entreprise collabore avec des opérateurs au Canada et aux États-Unis pour construire de telles solutions innovantes.",
+      "expertTeam": {
+        "title": "Équipe d'experts",
+        "description": "Spécialistes en IA et télécoms"
+      },
+      "focusedMission": {
+        "title": "Mission ciblée",
+        "description": "Optimisation du réseau en temps réel"
+      },
+      "provenResults": {
+        "title": "Résultats éprouvés",
+        "description": "Fiabilité reconnue par les grands opérateurs"
+      },
+      "imageAlt": "Équipe Lys Intelligence"
+    },
+    "efficiency": {
+      "title": "Tout est question d'efficacité",
+      "intro": "Lys est une solution d'une efficacité inégalée. Nous ne nous contentons pas du statu quo. Nos architectures réseau et leurs résultats dépassent les pratiques conventionnelles pour devenir entièrement intelligents et automatisés.",
+      "wealth": {
+        "title": "Richesse de nouvelles opportunités",
+        "description": "La 5G devrait apporter de nombreuses opportunités dans le secteur des télécoms."
+      },
+      "missionCritical": {
+        "title": "Applications critiques",
+        "description": "Les applications critiques nécessiteront une connexion ultra-fiable et une latence garantie."
+      },
+      "futureOps": {
+        "title": "Opérations futures",
+        "description": "Les opérations futures sont déjà submergées par un tsunami de données et ne peuvent suivre le volume supplémentaire des cas d'utilisation 5G."
+      },
+      "imageAlt": "Visualisation du réseau 5G"
+    },
+    "header": {
+      "brand": "Lys Intelligence",
+      "efficiency": "Efficacité",
+      "problem": "Le problème",
+      "solution": "Notre solution",
+      "about": "À propos",
+      "whyChooseUs": "Pourquoi nous choisir",
+      "contact": "Contactez-nous"
+    },
+    "hero": {
+      "title": "Efficacité des opérations réseau 5G propulsée par l'intelligence artificielle",
+      "description": "Les parties prenantes publiques et privées du monde entier cherchent à garantir que les communications sans fil offrent le même niveau de fiabilité et de résilience que le réseau filaire. Malheureusement, malgré l'impact sociétal et économique des interruptions de connectivité sans fil, il nous manque des outils évolutifs en temps réel et des méthodologies validées pour identifier et comprendre les pannes de réseau à grande échelle.",
+      "learnMore": "En savoir plus sur notre solution",
+      "caseStudies": "Voir les études de cas"
+    },
+    "problem": {
+      "title": "Le problème ?",
+      "intro": "Les réseaux sans fil font face à un véritable défi dans les opérations.",
+      "kpi": {
+        "title": "KPI",
+        "desc1": "Aucune visibilité sur la dégradation des KPI en temps réel.",
+        "desc2": "Aucun sentiment d'urgence pour résoudre efficacement les problèmes."
+      },
+      "reactive": {
+        "title": "Réactif",
+        "desc1": "Les pannes ne sont détectées que lorsqu'elles sont pleinement manifestées et que les clients sont impactés.",
+        "desc2": "Il manque des outils en temps réel pour résoudre les pannes de réseau sans fil."
+      },
+      "manual": {
+        "title": "Manuel",
+        "desc1": "Des milliers de tickets avec très peu d'outils entraînent de faibles niveaux de satisfaction client.",
+        "desc2": "Nous sommes tout simplement mal équipés pour répondre."
+      }
+    },
+    "solution": {
+      "imageAlt": "Solution d'opérations réseau IA",
+      "title": "Notre solution",
+      "desc1": "Nous avons développé une solution logicielle pour détecter et résoudre rapidement tous les défis des réseaux sans fil.",
+      "desc2": "Nous surveillons en temps réel les KPI clés en exploitant le RAN, le Core et le Transport IP.",
+      "desc3": "Nous appliquons des méthodologies d'apprentissage automatique (ML) et d'intelligence artificielle (IA) pour identifier/détecter les causes profondes et automatiser la résolution.",
+      "features": {
+        "one": "Réseau ouvert uniquement pour l'utilisation des données réseau",
+        "two": "Maximiser la base opérationnelle pour les utilisateurs finaux",
+        "three": "Maximiser l'efficacité du système 5G",
+        "four": "Prévenir les pertes manuelles"
+      }
+    },
+    "whyChooseUs": {
+      "title": "Pourquoi choisir Lys Intelligence ?",
+      "intro": "Nous proposons des solutions d'IA de pointe qui transforment la gestion et la performance des réseaux télécoms.",
+      "innovation": {
+        "title": "Innovation",
+        "desc": "Technologies d'IA et de ML de pointe appliquées à des défis réels des télécoms."
+      },
+      "realTime": {
+        "title": "Temps réel",
+        "desc": "Détection et résolution instantanées des problèmes réseau avant qu'ils n'impactent les clients."
+      },
+      "reliability": {
+        "title": "Fiabilité",
+        "desc": "Solutions éprouvées et reconnues par les principaux opérateurs nord-américains."
+      },
+      "results": {
+        "title": "Résultats",
+        "desc": "Améliorations mesurables de l'efficacité du réseau et de la satisfaction client."
+      }
+    },
+    "footer": {
+      "brand": "Lys Intelligence",
+      "intro": "Transformation des opérations réseau 5G grâce à des solutions IA pour la surveillance en temps réel, l'analyse prédictive et la résolution automatisée des problèmes.",
+      "location": "Montréal, Canada",
+      "email": "info@lys-intelligence.com",
+      "phone": "+1 (514) 555-0123",
+      "contactTitle": "Contactez-nous",
+      "form": {
+        "name": "Votre nom",
+        "email": "Votre e-mail",
+        "subject": "Sujet",
+        "message": "Votre message",
+        "send": "Envoyer le message"
+      },
+      "copyright": "© {year} Lys Intelligence. Tous droits réservés. | Donner le pouvoir au futur des réseaux 5G."
+    }
+  }
+}
