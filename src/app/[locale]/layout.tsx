@@ -30,21 +30,20 @@ export const metadata: Metadata = {
 };
 
 // params.locale will be passed by Next.js because you put layout under app/[locale]/layout.tsx
-export default function RootLayout({
+export default async function RootLayout({
   children,
   params,
 }: {
   children: React.ReactNode;
   params: { locale: string };
 }) {
-  const { locale } = params;
+  const { locale } = await params;
 
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
 
-  // load messages dynamically for this locale, etc. if you want
-  // const messages = await import(`../../messages/${locale}.json`);
+  const messages = (await import(`../../../messages/${locale}.json`)).default;
 
   return (
     <html
@@ -52,7 +51,7 @@ export default function RootLayout({
       className={`${playfair.variable} ${sourceSans.variable} antialiased`}
     >
       <body className="font-sans">
-        <NextIntlClientProvider locale={locale} /* messages={messages} if loaded */>
+        <NextIntlClientProvider locale={locale} messages={messages}>
           {children}
         </NextIntlClientProvider>
       </body>
