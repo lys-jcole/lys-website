@@ -1,5 +1,5 @@
 import React from 'react';
-import { Metadata } from 'next';
+// import { Metadata } from 'next';
 import { Playfair_Display, Source_Sans_3 } from 'next/font/google';
 import '../globals.css';
 
@@ -7,6 +7,8 @@ import { NextIntlClientProvider, hasLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
 
 import { routing } from '../../i18n/routing'; // your locale list
+
+type Params = Promise<{ locale: string }>;
 
 const playfair = Playfair_Display({
   subsets: ['latin'],
@@ -22,21 +24,24 @@ const sourceSans = Source_Sans_3({
   weight: ['400', '500', '600'],
 });
 
-export const metadata: Metadata = {
-  title: 'Lys Intelligence - AI-Powered 5G Network Optimization',
-  description:
-    'Professional telecom AI solutions for 5G network operations, providing real-time scalable tools for wireless network reliability and resilience.',
-  generator: 'v0.app',
-};
+export async function generateMetadata({params}: {params: Params}) {
+  const {locale} = await params;
+  console.log(locale); // locale needs to be used
+  return {
+    title: "Lys Intelligence - AI-Powered 5G Network Optimization",
+    description: "Professional telecom AI solutions for 5G network operations, providing real-time scalable tools for wireless network reliability and resilience.",
+  }
+}
+
+// export const metadata: Metadata = {
+//   title: 'Lys Intelligence - AI-Powered 5G Network Optimization',
+//   description:
+//     'Professional telecom AI solutions for 5G network operations, providing real-time scalable tools for wireless network reliability and resilience.',
+
+// };
 
 // params.locale will be passed by Next.js because you put layout under app/[locale]/layout.tsx
-export default async function RootLayout({
-  children,
-  params,
-}: {
-  children: React.ReactNode;
-  params: { locale: string };
-}) {
+export default async function RootLayout({children,params}: {children: React.ReactNode; params: Params;}) {
   const { locale } = await params;
 
   if (!hasLocale(routing.locales, locale)) {
