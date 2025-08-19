@@ -30,14 +30,14 @@ export const metadata: Metadata = {
 };
 
 // params.locale will be passed by Next.js because you put layout under app/[locale]/layout.tsx
-export default async function RootLayout({
+export default function RootLayout({
   children,
   params,
 }: {
   children: React.ReactNode;
   params: { locale: string };
 }) {
-  const { locale } =  await params;
+  const { locale } = params;
 
   if (!hasLocale(routing.locales, locale)) {
     notFound();
