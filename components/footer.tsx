@@ -1,7 +1,7 @@
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
-import { Network, Mail, Phone, MapPin } from "lucide-react"
+// import { Button } from "@/components/ui/button"
+// import { Input } from "@/components/ui/input"
+// import { Textarea } from "@/components/ui/textarea"
+import { Network, Mail, MapPin } from "lucide-react"
 
 import type WithT from "./with-t-props"
 
@@ -29,14 +29,11 @@ export function Footer({ t }: WithT) {
                 <Mail className="h-5 w-5 text-accent" />
                 <span className="text-primary-foreground/80">{t('footer.email')}</span>
               </div>
-              <div className="flex items-center gap-3">
-                <Phone className="h-5 w-5 text-accent" />
-                <span className="text-primary-foreground/80">{t('footer.phone')}</span>
-              </div>
             </div>
           </div>
-
-          <div>
+          {/* Form is commented out for now. Need the ok to use Formspree or something else
+            that allows for serverless form handling */}
+          {/* <div>
             <h3 className="text-xl font-bold font-serif mb-6">{t('footer.contactTitle')}</h3>
             <form className="space-y-4">
               <div className="grid sm:grid-cols-2 gap-4">
@@ -61,7 +58,7 @@ export function Footer({ t }: WithT) {
               />
               <Button className="w-full bg-accent hover:bg-accent/90">{t('footer.form.send')}</Button>
             </form>
-          </div>
+          </div> */}
         </div>
 
         <div className="border-t border-primary-foreground/20 mt-12 pt-8 text-center">

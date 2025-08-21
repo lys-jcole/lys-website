@@ -3,37 +3,37 @@
     "title": "Lys Intelligence - Optimisation du réseau 5G par l'IA",
     "description": "Solutions d'IA professionnelles pour les opérations de réseaux 5G, fournissant des outils évolutifs en temps réel pour la fiabilité et la résilience des réseaux sans fil.",
     "about": {
-      "title": "À propos de nous",
-      "intro": "Lys Intelligence a été fondée en 2020 à Montréal. Notre mission est de fournir de l'intelligence pour analyser automatiquement les données de performance et la configuration du réseau afin de détecter et corriger efficacement les anomalies en temps réel.",
-      "partnering": "Notre entreprise collabore avec des opérateurs au Canada et aux États-Unis pour construire de telles solutions innovantes.",
+      "title": "À propos",
+      "intro": "Nous sommes une PME établie depuis 2020, basée à Montréal. Notre mission est de fournir des outils aux opérateurs de réseaux sans fil pour analyser automatiquement les données de performance et les configurations du réseau afin de détecter et de corriger efficacement les anomalies et les pannes du réseau en temps réel.",
+      "partnering": "Notre entreprise travaille en arrachepied avec   des opérateurs au Canada et aux États-Unis pour créer des solutions innovantes afin de résoudre les problèmes opérationnels des réseaux 5G sans fil.",
       "expertTeam": {
         "title": "Équipe d'experts",
-        "description": "Spécialistes en IA et télécoms"
+        "description": "Spécialistes de l'IA et des télécommunications"
       },
       "focusedMission": {
         "title": "Mission ciblée",
         "description": "Optimisation du réseau en temps réel"
       },
       "provenResults": {
-        "title": "Résultats éprouvés",
-        "description": "Fiabilité reconnue par les grands opérateurs"
+        "title": "Des résultats prouvés",
+        "description": "Approuvé par les principaux opérateurs"
       },
       "imageAlt": "Équipe Lys Intelligence"
     },
     "efficiency": {
-      "title": "Tout est question d'efficacité",
-      "intro": "Lys est une solution d'une efficacité inégalée. Nous ne nous contentons pas du statu quo. Nos architectures réseau et leurs résultats dépassent les pratiques conventionnelles pour devenir entièrement intelligents et automatisés.",
+      "title": "Tout est question d’Éfficacité",
+      "intro": "Comment pouvons-nous atteindre un niveau d'efficacité opérationnelles très élevée et sans précédent ? La réponse consiste à faire recours à la résolution des problèmes du réseau en temps réel tout en utilisant l'intelligence et l'automatisation.",
       "wealth": {
         "title": "Richesse de nouvelles opportunités",
-        "description": "La 5G devrait apporter de nombreuses opportunités dans le secteur des télécoms."
+        "description": "La 5G devrait apporter une multitude de nouvelles opportunités au secteur des télécommunications."
       },
       "missionCritical": {
         "title": "Applications critiques",
-        "description": "Les applications critiques nécessiteront une connexion ultra-fiable et une latence garantie."
+        "description": "Les applications critiques du 5G auront besoin d'une connexion ultra-fiable et d'une faible latence garantie."
       },
       "futureOps": {
         "title": "Opérations futures",
-        "description": "Les opérations futures sont déjà submergées par un tsunami de données et ne peuvent suivre le volume supplémentaire des cas d'utilisation 5G."
+        "description": "Les opérateurs de télécommunications sans fil sont déjà submergés par un tsunami de données. Ils ne peuvent plus absorber les données supplémentaires provenant des cas d'usage 5G."
       },
       "imageAlt": "Visualisation du réseau 5G"
     },
@@ -47,45 +47,45 @@
       "contact": "Contactez-nous"
     },
     "hero": {
-      "title": "Efficacité des opérations réseau 5G propulsée par l'intelligence artificielle",
-      "description": "Les parties prenantes publiques et privées du monde entier cherchent à garantir que les communications sans fil offrent le même niveau de fiabilité et de résilience que le réseau filaire. Malheureusement, malgré l'impact sociétal et économique des interruptions de connectivité sans fil, il nous manque des outils évolutifs en temps réel et des méthodologies validées pour identifier et comprendre les pannes de réseau à grande échelle.",
+      "title": "Transformer l’Efficacité Opérationnelle des réseaux 5G grâce à l’Intelligence Artificielle",
+      "description": "Aujourd’hui, les différents acteurs des réseaux de télécommunications sans fil, cherchent par tous les moyens à obtenir un niveau de fiabilité égal à celui des réseaux téléphoniques traditionnels. Malgré l’importance des communications sans fils dans nos sociétés, les outils et techniques pour diagnostiquer en temps réel les interruptions de service restent très limités.",
       "learnMore": "En savoir plus sur notre solution",
       "caseStudies": "Voir les études de cas"
     },
     "problem": {
-      "title": "Le problème ?",
-      "intro": "Les réseaux sans fil font face à un véritable défi dans les opérations.",
+      "title": "Le Problème ?",
+      "intro": "Les interruptions de connexion au réseau sans fil sont un véritable défi pour les opérateurs sans fil.",
       "kpi": {
         "title": "KPI",
         "desc1": "Aucune visibilité sur la dégradation des KPI en temps réel.",
-        "desc2": "Aucun sentiment d'urgence pour résoudre efficacement les problèmes."
+        "desc2": "Aucun sentiment d'urgence pour résoudre efficacement les pannes."
       },
       "reactive": {
         "title": "Réactif",
-        "desc1": "Les pannes ne sont détectées que lorsqu'elles sont pleinement manifestées et que les clients sont impactés.",
-        "desc2": "Il manque des outils en temps réel pour résoudre les pannes de réseau sans fil."
+        "desc1": "Pannes détectées uniquement lorsque les KPI et/ou les clients sont impactés.",
+        "desc2": "il y a un manque d'outils temps réel, évolutifs et validés pour identifier et comprendre les pannes de réseau sans fil."
       },
       "manual": {
         "title": "Manuel",
-        "desc1": "Des milliers de tickets avec très peu d'outils entraînent de faibles niveaux de satisfaction client.",
-        "desc2": "Nous sommes tout simplement mal équipés pour répondre."
+        "desc1": "Des milliers de tickets, d'alarmes et d'alertes par courriel circulants chaque jour, dont seulement moins de 3 % entraînent de véritables incidents affectant les clients.",
+        "desc2": "97 % sont simplement du bruit qui peut et doit être ignoré."
       }
     },
     "solution": {
       "imageAlt": "Solution d'opérations réseau IA",
-      "title": "Notre solution",
-      "desc1": "Nous avons développé une solution logicielle pour détecter et résoudre rapidement tous les défis des réseaux sans fil.",
-      "desc2": "Nous surveillons en temps réel les KPI clés en exploitant le RAN, le Core et le Transport IP.",
-      "desc3": "Nous appliquons des méthodologies d'apprentissage automatique (ML) et d'intelligence artificielle (IA) pour identifier/détecter les causes profondes et automatiser la résolution.",
+      "title": "Notre Solution",
+      "desc1": "Nous avons développé un logiciel pour détecter et résoudre rapidement les pannes de réseau sans fil.",
+      "desc2": "Nous surveillons les KPI clés en temps réel en exploitant les données du réseau : réseau d’Accès, réseau central, et Transport IP.",
+      "desc3": "Nous intégrons les méthodes de l’intelligence artificielle (IA) de l’apprentissage automatique (AA) pour identifier/prédire les causes profondes et automatiser le processus de résolution.",
       "features": {
-        "one": "Réseau ouvert uniquement pour l'utilisation des données réseau",
-        "two": "Maximiser la base opérationnelle pour les utilisateurs finaux",
-        "three": "Maximiser l'efficacité du système 5G",
-        "four": "Prévenir les pertes manuelles"
+        "one": "Explorer nouveaux horizons pour l'utilisation des données réseau",
+        "two": "Maximiser le temps de connectivité pour les utilisateurs finaux",
+        "three": "Maximiser l'efficacité des équipes Opérationnelles",
+        "four": "Prévenir la perte de revenus"
       }
     },
     "whyChooseUs": {
-      "title": "Pourquoi choisir Lys Intelligence ?",
+      "title": "Pourquoi nous ?",
       "intro": "Nous proposons des solutions d'IA de pointe qui transforment la gestion et la performance des réseaux télécoms.",
       "innovation": {
         "title": "Innovation",
@@ -106,8 +106,8 @@
     },
     "footer": {
       "brand": "Lys Intelligence",
-      "intro": "Transformation des opérations réseau 5G grâce à des solutions IA pour la surveillance en temps réel, l'analyse prédictive et la résolution automatisée des problèmes.",
-      "location": "Montréal, Canada",
+      "intro": "Transformer l'industrie des télécommunications Sans Fil",
+      "location": "Montréal, Québec, Canada",
       "email": "info@lys-intelligence.com",
       "phone": "+1 (514) 555-0123",
       "contactTitle": "Contactez-nous",
