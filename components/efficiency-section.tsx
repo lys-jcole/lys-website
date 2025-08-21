@@ -49,7 +49,7 @@ export function EfficiencySection({ t }: WithT) {
 
             <div className="relative">
             <Image
-              src="/5g-network-visualization.png"
+              src="/images/reactive.jpeg"
               alt={t('efficiency.imageAlt') as string}
               className="rounded-lg shadow-lg w-full"
               fill={false}

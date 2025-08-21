@@ -45,7 +45,7 @@ export function AboutSection({ t }: WithT) {
 
             <div className="relative">
             <Image
-              src="/ai-network-montreal.png"
+              src="/images/us.png"
               alt={t('about.imageAlt') as string}
               className="rounded-lg shadow-lg w-full"
               width={800}

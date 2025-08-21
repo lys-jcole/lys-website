@@ -10,7 +10,7 @@ export function SolutionSection({ t }: WithT) {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="relative">
             <Image
-              src="/ai-noc-dashboard.png"
+              src="/images/solution.jpeg"
               alt={t('solution.imageAlt') as string}
               width={800}
               height={600}
