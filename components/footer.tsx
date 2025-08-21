@@ -27,7 +27,12 @@ export function Footer({ t }: WithT) {
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-accent" />
-                <span className="text-primary-foreground/80">{t('footer.email')}</span>
+                <a
+                  href={`mailto:${t('footer.email')}`}
+                  className="text-primary-foreground/80 hover:underline"
+                >
+                  {t('footer.email')}
+                </a>
               </div>
             </div>
           </div>
