@@ -8,7 +8,7 @@ export function HeroSection({ t }: WithT) {
     <section className="relative min-h-screen bg-gradient-to-b from-muted to-background overflow-hidden">
       {/* Video Background */}
       <video
-        className="absolute top-0 left-0 w-full h-full object-cover z-0 opacity-20"
+        className="absolute top-0 left-0 w-full h-full object-cover z-0"
         src="/videos/network.mp4"
         autoPlay
         loop
