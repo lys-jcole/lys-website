@@ -28,7 +28,7 @@ export async function generateMetadata({params}: {params: Params}) {
   const {locale} = await params;
   console.log(locale); // locale needs to be used
   return {
-    title: "Lys Intelligence - AI-Powered 5G Network Optimization",
+    title: "Lys Intelligence",
     description: "Professional telecom AI solutions for 5G network operations, providing real-time scalable tools for wireless network reliability and resilience.",
   }
 }
