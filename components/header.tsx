@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Network } from "lucide-react"
-
+import { LanguageToggle } from "./language-toggle"
 
 import type WithT from "./with-t-props"
 
@@ -31,9 +31,13 @@ export function Header({ t }: WithT) {
           </a>
         </nav>
 
-        <Button asChild className="bg-accent hover:bg-accent/90">
-          <a href="#contact">{t('header.contact')}</a>
-        </Button>
+        <div className="flex items-center gap-3">
+          <LanguageToggle />
+          
+          <Button asChild className="bg-accent hover:bg-accent/90">
+            <a href="#contact">{t('header.contact')}</a>
+          </Button>
+        </div>
       </div>
     </header>
   )
