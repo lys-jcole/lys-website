@@ -1,14 +1,14 @@
-import { Button } from "@/components/ui/button"
-import { ArrowRight, Zap } from "lucide-react"
+import { Button } from "@/components/ui/button";
+import { ArrowRight, Zap } from "lucide-react";
 
-import type WithT from "./with-t-props"
+import type WithT from "./with-t-props";
 
 export function HeroSection({ t }: WithT) {
   return (
     <section className="relative min-h-screen bg-gradient-to-b from-muted to-background overflow-hidden">
       {/* Video Background */}
       <video
-        className="absolute top-0 left-0 w-full h-full object-cover z-0"
+        className="absolute top-0 left-0 w-full h-full object-cover z-0 appl1-hdvd-xx"
         src="/videos/network.mp4"
         autoPlay
         loop
@@ -37,11 +37,7 @@ export function HeroSection({ t }: WithT) {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button
-              size="lg"
-              className="bg-accent hover:bg-accent/90"
-              asChild
-            >
+            <Button size="lg" className="bg-accent hover:bg-accent/90" asChild>
               <a href="#solution">
                 {t("hero.learnMore")}
                 <ArrowRight className="ml-2 h-4 w-4" />
